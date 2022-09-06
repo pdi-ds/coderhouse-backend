@@ -1,0 +1,14 @@
+[
+  {
+    name: "sweet corn",
+    price: "4.47",
+    thumbnail: "https://cdn.example.com/sweet-corn.webp",
+    "id": 1
+  },
+  {
+    name: "chickpeas",
+    price: "1.16",
+    thumbnail: "https://cdn.example.com/chickpeas.webp",
+    "id": 3
+  }
+]
