@@ -1,0 +1,26 @@
+extends layouts/main
+block contenido
+	div(class="container-fluid")
+		div(class="row")
+			div(class="col-12 mb-3 fs-3") Item list 
+			if products.length > 0
+				div(class="col-12 mb-3")
+					table(class="table table-striped")
+						thead
+							tr
+								th(scope="col" width="15%") Thumbnail
+								th(scope="col") Title
+								th(scope="col" width="25%") Price 
+						tbody
+							each product in products
+								tr
+									td(class="align-middle")
+										img(src= product.thumbnail alt="" class="img-fluid")
+									td(class="align-middle")= product.title
+									td(class="align-middle")= product.price
+			else
+				div(class="col-12 mb-3")
+					div(class="alert alert-danger" role="alert")
+						span Error 
+			div(class="col-12")
+				a(class="btn btn-primary" href="/" role="button") Add item 

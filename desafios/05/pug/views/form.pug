@@ -1,0 +1,29 @@
+extends layouts/main
+block contenido
+	div(class="container-fluid")
+		div(class="row")
+			div(class="col-12 mb-3 fs-3") Add item
+			if error
+				div(class="alert alert-danger" role="alert")
+					span= error
+					if errors
+						ul(class="mb-0")
+							each error in errors
+								li= error.message
+			else if success
+				div(class="alert alert-success" role="alert")
+					span Success!
+			div(class="col-12")
+				form(method="post" action="/productos")
+					div(class="mb-3")
+						label(for="title" class="form-label") Title 
+						input(type="text" class="form-control" id="title" name="title" value= error ? values.title : '')
+					div(class="mb-3")
+						label(for="price" class="form-label") Price 
+						input(type="text" class="form-control" id="price" name="price" value= error ? values.price : '')
+					div(class="mb-3")
+						label(for="thumbnail" class="form-label") Thumbnail
+						input(type="text" class="form-control" id="thumbnail" name="thumbnail" value= error ? values.thubnail : '')
+					button(type="submit" class="btn btn-primary") Add
+					| &nbsp;
+					a(class="btn btn-secondary" href="/productos" role="button") View items
