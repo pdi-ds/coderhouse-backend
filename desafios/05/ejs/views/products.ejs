@@ -1,0 +1,40 @@
+<%- include('layouts/header'); -%>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 mb-3 fs-3">Listado de productos</div>
+    <% if (products.length > 0) { %>
+    <div class="col-12 mb-3">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" width="15%">Imagen</th>
+            <th scope="col">Título</th>
+            <th scope="col" width="25%">Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% products.forEach(function(product) { %>
+          <tr>
+            <td class="align-middle">
+              <img src="<%= product.thumbnail %>" alt="" class="img-fluid" />
+            </td>
+            <td class="align-middle"><%= product.title %></td>
+            <td class="align-middle"><%= product.price %></td>
+          </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    </div>
+    <% } else { %>
+    <div class="col-12 mb-3">
+      <div class="alert alert-danger" role="alert">
+        <span>No hay productos ingresados</span>
+      </div>
+    </div>
+    <% } %>
+    <div class="col-12">
+      <a class="btn btn-primary" href="/" role="button">Agregar producto</a>
+    </div>
+  </div>
+</div>
+<%- include('layouts/footer'); -%>
