@@ -1,0 +1,39 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12 mb-3 fs-3">Add item</div>
+		{{#if error}}
+			<div class="alert alert-danger" role="alert">
+				<span>{{error}}</span>
+				{{#if errors}}
+					<ul class="mb-0">
+						{{#each errors}}
+							<li>{{message}}</li>
+						{{/each}}
+					</ul>
+				{{/if}}
+			</div>
+		{{else if success}}
+			<div class="alert alert-success" role="alert">
+				<span>Success</span>
+			</div>
+		{{/if}}
+		<div class="col-12">
+			<form method="post" action="/productos">
+				<div class="mb-3">
+					<label for="title" class="form-label">Títle</label>
+					<input type="text" class="form-control" id="title" name="title" value="{{#if error}}{{values.title}}{{/if}}">
+				</div>
+				<div class="mb-3">
+					<label for="price" class="form-label">Price</label>
+					<input type="text" class="form-control" id="price" name="price" value="{{#if error}}{{values.price}}{{/if}}">
+				</div>
+				<div class="mb-3">
+					<label for="thumbnail" class="form-label">Thumbnail</label>
+					<input type="text" class="form-control" id="thumbnail" name="thumbnail" value="{{#if error}}{{values.thumbnail}}{{/if}}">
+				</div>
+				<button type="submit" class="btn btn-primary">Add</button>
+				<a class="btn btn-secondary" href="/productos" role="button">View items</a>
+			</form>
+		</div>
+	</div>
+</div>
