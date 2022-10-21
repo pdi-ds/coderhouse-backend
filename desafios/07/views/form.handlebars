@@ -1,0 +1,70 @@
+<div class="container-fluid">
+  <div class="row mb-5">
+    <div class="col-12 mb-3 fs-3">Add product</div>
+    <div class="alert d-none" role="alert">
+      <span></span>
+      <ul class="mb-0 d-none"></ul>
+    </div>
+    <div class="col-12">
+      <form method="post" action="/productos" name="products">
+        <div class="mb-3">
+          <label for="name" class="form-label">Title</label>
+          <input type="text" class="form-control" id="name" name="name" />
+        </div>
+        <div class="mb-3">
+          <label for="price" class="form-label">Price</label>
+          <input type="text" class="form-control" id="price" name="price" />
+        </div>
+        <div class="mb-3">
+          <label for="thumbnail" class="form-label">Thumbnail</label>
+          <input
+            type="text"
+            class="form-control"
+            id="thumbnail"
+            name="thumbnail"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Add product</button>
+      </form>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-12 mb-3 fs-3">Product List</div>
+    <div class="col-12" id="products">
+      <div class="alert alert-danger" role="alert">
+        <span>There are no products entered</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 mb-3 fs-3">Chat</div>
+    <div class="col-12">
+      <form class="row" name="messages">
+        <div class="col-12 mb-3">
+          <div
+            id="messages"
+            style="height: 250px; overflow-x: hidden; overflow-y: auto; background-color: #ececec; border-radius: .375rem; padding: .75rem; font-size: .75rem"
+          ></div>
+        </div>
+        <div class="col-6 mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" class="form-control" id="email" name="email" />
+          <div class="invalid-feedback">Enter a valid email</div>
+        </div>
+        <div class="col-6 mb-3">
+          <label for="message" class="form-label">Message</label>
+          <input type="text" class="form-control" id="message" name="message" />
+          <div class="invalid-feedback">Enter your message</div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="socket.io/socket.io.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"
+></script>
+<script src="scripts/common.js"></script>
