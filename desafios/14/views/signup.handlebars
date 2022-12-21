@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row mb-5">
+    <div class="col-12 mb-3 fs-3">Signup</div>
+    {{#if error}}
+      <div class="col-12 mb-3">
+        <div class="alert alert-danger" role="alert">
+          <span>The user entered already exists</span>
+        </div>
+      </div>
+    {{/if}}
+    <div class="col-12">
+      <form method="post" action="/signup" name="login">
+        <div class="mb-3">
+          <label for="username" class="form-label">User</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            name="username"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            name="password"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Sing up</button>
+        <a href="/login" class="btn btn-default">Sing in</a>
+      </form>
+    </div>
+  </div>
+</div>

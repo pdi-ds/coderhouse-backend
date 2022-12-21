@@ -1,0 +1,1355 @@
+Statistical profiling result from info-nolog-v8.log, (1849 ticks, 69 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+    108    5.8%          /usr/lib/system/libsystem_kernel.dylib
+     48    2.6%          /usr/lib/system/libsystem_pthread.dylib
+     38    2.1%          /usr/lib/system/libsystem_malloc.dylib
+     23    1.2%          /usr/lib/system/libsystem_platform.dylib
+     19    1.0%          /usr/lib/system/libsystem_c.dylib
+     15    0.8%          /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+     13    0.7%          /usr/lib/libc++.1.dylib
+      2    0.1%          /usr/lib/libc++abi.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      4    0.2%    0.3%  JS: *normalizeString node:path:66:25
+      3    0.2%    0.2%  RegExp: [&<>"'`=]
+      3    0.2%    0.2%  JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      3    0.2%    0.2%  JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      2    0.1%    0.1%  JS: ^wrapSafe node:internal/modules/cjs/loader:1117:18
+      2    0.1%    0.1%  JS: ^emit node:events:460:44
+      2    0.1%    0.1%  JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      2    0.1%    0.1%  JS: *digest node:internal/crypto/hash:119:40
+      2    0.1%    0.1%  JS: *Module._nodeModulePaths node:internal/modules/cjs/loader:715:37
+      1    0.1%    0.1%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      1    0.1%    0.1%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      1    0.1%    0.1%  JS: ^writeOrBuffer /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:363:23
+      1    0.1%    0.1%  JS: ^update node:internal/crypto/hash:99:40
+      1    0.1%    0.1%  JS: ^unenroll node:timers:78:18
+      1    0.1%    0.1%  JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1    0.1%    0.1%  JS: ^toRealPath node:internal/modules/cjs/loader:449:20
+      1    0.1%    0.1%  JS: ^shouldTouch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:453:25
+      1    0.1%    0.1%  JS: ^setCharset /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:248:41
+      1    0.1%    0.1%  JS: ^realpathSync node:fs:2470:22
+      1    0.1%    0.1%  JS: ^randomBytesSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/random-bytes/index.js:72:25
+      1    0.1%    0.1%  JS: ^parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/content-type/index.js:106:16
+      1    0.1%    0.1%  JS: ^normalize node:path:1131:12
+      1    0.1%    0.1%  JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    0.1%    0.1%  JS: ^needFinish /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:585:20
+      1    0.1%    0.1%  JS: ^isTraceHTTPEnabled node:internal/http:40:28
+      1    0.1%    0.1%  JS: ^isModified /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:425:24
+      1    0.1%    0.1%  JS: ^initialize /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/initialize.js:51:29
+      1    0.1%    0.1%  JS: ^getStrictOption /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/safe-stable-stringify/index.js:197:26
+      1    0.1%    0.1%  JS: ^get node:events:272:16
+      1    0.1%    0.1%  JS: ^debug /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/debug/src/debug.js:65:17
+      1    0.1%    0.1%  JS: ^cpus node:os:141:14
+      1    0.1%    0.1%  JS: ^clearBuffer node:internal/streams/writable:532:21
+      1    0.1%    0.1%  JS: ^_send node:_http_outgoing:336:49
+      1    0.1%    0.1%  JS: ^_destroy node:_http_incoming:221:55
+      1    0.1%    0.1%  JS: ^Socket.resume node:net:710:35
+      1    0.1%    0.1%  JS: ^Readable.read /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:392:36
+      1    0.1%    0.1%  JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    0.1%    0.1%  JS: ^ContentType /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/content-type/index.js:219:22
+      1    0.1%    0.1%  JS: ^<anonymous> :1:20
+      1    0.1%    0.1%  JS: *restore /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:631:17
+      1    0.1%    0.1%  JS: *realpathSync node:fs:2470:22
+      1    0.1%    0.1%  JS: *lookupProperty /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:118:44
+      1    0.1%    0.1%  JS: *logger node:internal/util/debuglog:95:18
+      1    0.1%    0.1%  JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    0.1%    0.1%  JS: *__awaiter /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1    0.1%    0.1%  JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+
+ [C++]:
+   ticks  total  nonlib   name
+    964   52.1%   60.9%  T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+     54    2.9%    3.4%  T _host_get_special_port
+     50    2.7%    3.2%  t _Builtins_LoadIC
+     40    2.2%    2.5%  T _host_request_notification
+     27    1.5%    1.7%  t _Builtins_CallFunction_ReceiverIsNullOrUndefined
+     20    1.1%    1.3%  t _Builtins_BaselineOutOfLinePrologue
+     18    1.0%    1.1%  t _Builtins_StoreIC
+     17    0.9%    1.1%  t _Builtins_CallFunction_ReceiverIsNotNullOrUndefined
+     16    0.9%    1.0%  T _mig_strncpy_zerofill
+     13    0.7%    0.8%  t _Builtins_KeyedLoadIC_Megamorphic
+     11    0.6%    0.7%  t _Builtins_ToBooleanForBaselineJump
+      9    0.5%    0.6%  t _Builtins_SetDataProperties
+      9    0.5%    0.6%  t _Builtins_CallFunction_ReceiverIsAny
+      7    0.4%    0.4%  t _Builtins_KeyedStoreIC
+      7    0.4%    0.4%  t _Builtins_GetProperty
+      7    0.4%    0.4%  T _mach_vm_map
+      7    0.4%    0.4%  T __kernelrpc_mach_port_get_context
+      6    0.3%    0.4%  t _Builtins_KeyedStoreIC_Megamorphic
+      6    0.3%    0.4%  t _Builtins_KeyedLoadIC
+      6    0.3%    0.4%  t _Builtins_Call_ReceiverIsNotNullOrUndefined
+      5    0.3%    0.3%  t std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long)
+      5    0.3%    0.3%  t _Builtins_StrictEqual_Baseline
+      5    0.3%    0.3%  t _Builtins_LoadIC_Megamorphic
+      5    0.3%    0.3%  t _Builtins_CompileLazy
+      5    0.3%    0.3%  t _Builtins_Call_ReceiverIsAny
+      5    0.3%    0.3%  t _Builtins_BaselineLeaveFrame
+      4    0.2%    0.3%  t std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char)
+      4    0.2%    0.3%  t _Builtins_RegExpPrototypeTest
+      4    0.2%    0.3%  t _Builtins_RecordWriteSaveFP
+      4    0.2%    0.3%  t _Builtins_Call_ReceiverIsNullOrUndefined
+      4    0.2%    0.3%  T _mach_msg_destroy
+      3    0.2%    0.2%  t _Builtins_StringAdd_CheckNone
+      3    0.2%    0.2%  t _Builtins_LoadICBaseline
+      3    0.2%    0.2%  t _Builtins_KeyedLoadIC_PolymorphicName
+      3    0.2%    0.2%  T _uv_cpu_info
+      3    0.2%    0.2%  T _mach_get_times
+      2    0.1%    0.1%  t _Builtins_StringSubstring
+      2    0.1%    0.1%  t _Builtins_StringPrototypeEndsWith
+      2    0.1%    0.1%  t _Builtins_StoreInArrayLiteralIC
+      2    0.1%    0.1%  t _Builtins_StoreFastElementIC_Standard
+      2    0.1%    0.1%  t _Builtins_RegExpPrototypeExec
+      2    0.1%    0.1%  t _Builtins_ObjectPrototypeHasOwnProperty
+      2    0.1%    0.1%  t _Builtins_ObjectKeys
+      2    0.1%    0.1%  t _Builtins_NewPromiseCapability
+      2    0.1%    0.1%  t _Builtins_LoadIC_NoFeedback
+      2    0.1%    0.1%  t _Builtins_LoadICTrampoline_Megamorphic
+      2    0.1%    0.1%  t _Builtins_LoadGlobalIC
+      2    0.1%    0.1%  t _Builtins_FindOrderedHashMapEntry
+      2    0.1%    0.1%  t _Builtins_EnqueueMicrotask
+      2    0.1%    0.1%  t _Builtins_CreateShallowArrayLiteral
+      2    0.1%    0.1%  t _Builtins_CallBoundFunction
+      2    0.1%    0.1%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      2    0.1%    0.1%  t _Builtins_Add_Baseline
+      2    0.1%    0.1%  T _semaphore_create
+      1    0.1%    0.1%  t void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+      1    0.1%    0.1%  t std::__1::__hash_table<int, std::__1::hash<int>, std::__1::equal_to<int>, std::__1::allocator<int> >::__rehash(unsigned long)
+      1    0.1%    0.1%  t icu_71::(anonymous namespace)::toLower(int, unsigned int, char16_t*, int, char16_t const*, UCaseContext*, int, int, icu_71::Edits*, UErrorCode&)
+      1    0.1%    0.1%  t _ustrcase_getCaseLocale_71
+      1    0.1%    0.1%  t _cleanup_old_md_data
+      1    0.1%    0.1%  t _Builtins_WeakCollectionSet
+      1    0.1%    0.1%  t _Builtins_ToString
+      1    0.1%    0.1%  t _Builtins_ToName
+      1    0.1%    0.1%  t _Builtins_TestInstanceOfHandler
+      1    0.1%    0.1%  t _Builtins_TestEqualStrictHandler
+      1    0.1%    0.1%  t _Builtins_StringPrototypeSlice
+      1    0.1%    0.1%  t _Builtins_StringPrototypeReplace
+      1    0.1%    0.1%  t _Builtins_StringPrototypeIndexOf
+      1    0.1%    0.1%  t _Builtins_StringEqual
+      1    0.1%    0.1%  t _Builtins_StringAddConvertRight
+      1    0.1%    0.1%  t _Builtins_StoreIC_NoFeedback
+      1    0.1%    0.1%  t _Builtins_StoreICBaseline
+      1    0.1%    0.1%  t _Builtins_StoreFastElementIC_GrowNoTransitionHandleCOW
+      1    0.1%    0.1%  t _Builtins_RunMicrotasks
+      1    0.1%    0.1%  t _Builtins_ReturnHandler
+      1    0.1%    0.1%  t _Builtins_RegExpReplace
+      1    0.1%    0.1%  t _Builtins_RegExpPrototypeExecSlow
+      1    0.1%    0.1%  t _Builtins_PromiseAll
+      1    0.1%    0.1%  t _Builtins_PerformPromiseThen
+      1    0.1%    0.1%  t _Builtins_ObjectAssign
+      1    0.1%    0.1%  t _Builtins_NumberPrototypeToString
+      1    0.1%    0.1%  t _Builtins_Multiply_Baseline
+      1    0.1%    0.1%  t _Builtins_LoadIC_StringLength
+      1    0.1%    0.1%  t _Builtins_LoadIC_FunctionPrototype
+      1    0.1%    0.1%  t _Builtins_LoadGlobalICBaseline
+      1    0.1%    0.1%  t _Builtins_LdaGlobalHandler
+      1    0.1%    0.1%  t _Builtins_LdaConstantHandler
+      1    0.1%    0.1%  t _Builtins_KeyedLoadICTrampoline_Megamorphic
+      1    0.1%    0.1%  t _Builtins_InterpreterEntryTrampoline
+      1    0.1%    0.1%  t _Builtins_InstanceOf_Baseline
+      1    0.1%    0.1%  t _Builtins_FunctionPrototypeHasInstance
+      1    0.1%    0.1%  t _Builtins_FastNewStrictArguments
+      1    0.1%    0.1%  t _Builtins_FastNewSloppyArguments
+      1    0.1%    0.1%  t _Builtins_FastNewFunctionContextFunction
+      1    0.1%    0.1%  t _Builtins_FastFunctionPrototypeBind
+      1    0.1%    0.1%  t _Builtins_DefineNamedOwnIC
+      1    0.1%    0.1%  t _Builtins_CreateShallowObjectLiteral
+      1    0.1%    0.1%  t _Builtins_CreateFunctionContextHandler
+      1    0.1%    0.1%  t _Builtins_CreateEmptyArrayLiteral
+      1    0.1%    0.1%  t _Builtins_ConstructFunction
+      1    0.1%    0.1%  t _Builtins_Construct
+      1    0.1%    0.1%  t _Builtins_Call_ReceiverIsNullOrUndefined_Baseline_Compact
+      1    0.1%    0.1%  t _Builtins_Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+      1    0.1%    0.1%  t _Builtins_CallWithArrayLike
+      1    0.1%    0.1%  t _Builtins_CallVarargs
+      1    0.1%    0.1%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_BuiltinExit
+      1    0.1%    0.1%  t _Builtins_ArrayPrototypePop
+      1    0.1%    0.1%  T node::cares_wrap::ChannelWrap::New(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T node::ParseEncoding(v8::Isolate*, v8::Local<v8::Value>, node::encoding)
+      1    0.1%    0.1%  T node::HandleWrap::Close(v8::FunctionCallbackInfo<v8::Value> const&)
+      1    0.1%    0.1%  T _u_strToLower_71
+      1    0.1%    0.1%  T _u_isupper_71
+      1    0.1%    0.1%  T _posix_spawn_file_actions_adddup2
+      1    0.1%    0.1%  T _OPENSSL_strlcpy
+
+ [Summary]:
+   ticks  total  nonlib   name
+     60    3.2%    3.8%  JavaScript
+   1454   78.6%   91.9%  C++
+     77    4.2%    4.9%  GC
+    266   14.4%          Shared libraries
+     69    3.7%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   1027   70.9%   55.5%  T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+     48    3.3%    2.6%  t _Builtins_LoadIC
+     26    1.8%    1.4%  t _Builtins_CallFunction_ReceiverIsNullOrUndefined
+     22    1.5%    1.2%  t _Builtins_KeyedLoadIC_Megamorphic
+     18    1.2%    1.0%  t _Builtins_StoreIC
+     17    1.2%    0.9%  t _Builtins_CallFunction_ReceiverIsNotNullOrUndefined
+     17    1.2%    0.9%  t _Builtins_BaselineOutOfLinePrologue
+     12    0.8%    0.6%  t _Builtins_StringPrototypeReplace
+     12    0.8%    0.6%  t _Builtins_ArrayPrototypePush
+     11    0.8%    0.6%  t _Builtins_ToBooleanForBaselineJump
+     10    0.7%    0.5%  t _Builtins_ObjectAssign
+     10    0.7%    0.5%  t _Builtins_FastFunctionPrototypeBind
+      9    0.6%    0.5%  t _Builtins_RegExpPrototypeTest
+      9    0.6%    0.5%  t _Builtins_KeyedLoadIC
+      9    0.6%    0.5%  t _Builtins_CallFunction_ReceiverIsAny
+      7    0.5%    0.4%  t _Builtins_KeyedStoreIC_Megamorphic
+      7    0.5%    0.4%  t _Builtins_KeyedStoreIC
+      7    0.5%    0.4%  t _Builtins_BaselineLeaveFrame
+      7    0.5%    0.4%  T _mach_vm_map
+      6    0.4%    0.3%  t _Builtins_RegExpPrototypeExec
+      6    0.4%    0.3%  t _Builtins_PromiseAll
+      6    0.4%    0.3%  t _Builtins_Call_ReceiverIsNotNullOrUndefined
+      5    0.3%    0.3%  t _Builtins_StrictEqual_Baseline
+      5    0.3%    0.3%  t _Builtins_ReflectGet
+      5    0.3%    0.3%  t _Builtins_MapPrototypeGet
+      5    0.3%    0.3%  t _Builtins_LoadIC_Megamorphic
+      5    0.3%    0.3%  t _Builtins_Call_ReceiverIsAny
+      4    0.3%    0.2%  t _Builtins_RecordWriteSaveFP
+      4    0.3%    0.2%  t _Builtins_GetProperty
+      4    0.3%    0.2%  t _Builtins_CompileLazy
+      4    0.3%    0.2%  t _Builtins_Call_ReceiverIsNullOrUndefined
+      3    0.2%    0.2%  t _Builtins_StringPrototypeToLowerCaseIntl
+      3    0.2%    0.2%  t _Builtins_StringPrototypeEndsWith
+      3    0.2%    0.2%  t _Builtins_StringAdd_CheckNone
+      3    0.2%    0.2%  t _Builtins_ObjectKeys
+      3    0.2%    0.2%  t _Builtins_LoadICBaseline
+      3    0.2%    0.2%  t _Builtins_KeyedLoadIC_PolymorphicName
+      3    0.2%    0.2%  t _Builtins_CallApiCallback
+      3    0.2%    0.2%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      3    0.2%    0.2%  t _Builtins_ArrayForEach
+      3    0.2%    0.2%  T _uv_cpu_info
+      2    0.1%    0.1%  t _Builtins_WeakMapPrototypeSet
+      2    0.1%    0.1%  t _Builtins_StringSubstring
+      2    0.1%    0.1%  t _Builtins_StringPrototypeTrim
+      2    0.1%    0.1%  t _Builtins_StringPrototypeSplit
+      2    0.1%    0.1%  t _Builtins_StringPrototypeMatch
+      2    0.1%    0.1%  t _Builtins_StoreInArrayLiteralIC
+      2    0.1%    0.1%  t _Builtins_StoreFastElementIC_Standard
+      2    0.1%    0.1%  t _Builtins_PromiseCapabilityDefaultResolve
+      2    0.1%    0.1%  t _Builtins_ObjectPrototypeHasOwnProperty
+      2    0.1%    0.1%  t _Builtins_LoadIC_NoFeedback
+      2    0.1%    0.1%  t _Builtins_LoadICTrampoline_Megamorphic
+      2    0.1%    0.1%  t _Builtins_LoadGlobalIC
+      2    0.1%    0.1%  t _Builtins_CreateShallowArrayLiteral
+      1    0.1%    0.1%  t _Builtins_TypedArrayConstructor
+      1    0.1%    0.1%  t _Builtins_ToString
+      1    0.1%    0.1%  t _Builtins_ToName
+      1    0.1%    0.1%  t _Builtins_TestInstanceOfHandler
+      1    0.1%    0.1%  t _Builtins_TestEqualStrictHandler
+      1    0.1%    0.1%  t _Builtins_StringPrototypeSlice
+      1    0.1%    0.1%  t _Builtins_StringPrototypeIndexOf
+      1    0.1%    0.1%  t _Builtins_StringEqual
+      1    0.1%    0.1%  t _Builtins_StringAddConvertRight
+      1    0.1%    0.1%  t _Builtins_StoreIC_NoFeedback
+      1    0.1%    0.1%  t _Builtins_StoreICBaseline
+      1    0.1%    0.1%  t _Builtins_StoreFastElementIC_GrowNoTransitionHandleCOW
+      1    0.1%    0.1%  t _Builtins_ReturnHandler
+      1    0.1%    0.1%  t _Builtins_PromiseConstructor
+      1    0.1%    0.1%  t _Builtins_PerformPromiseThen
+      1    0.1%    0.1%  t _Builtins_NumberPrototypeToString
+      1    0.1%    0.1%  t _Builtins_Multiply_Baseline
+      1    0.1%    0.1%  t _Builtins_MapConstructor
+      1    0.1%    0.1%  t _Builtins_LoadIC_StringLength
+      1    0.1%    0.1%  t _Builtins_LoadIC_FunctionPrototype
+      1    0.1%    0.1%  t _Builtins_LoadGlobalICBaseline
+      1    0.1%    0.1%  t _Builtins_LdaGlobalHandler
+      1    0.1%    0.1%  t _Builtins_LdaConstantHandler
+      1    0.1%    0.1%  t _Builtins_KeyedLoadICTrampoline_Megamorphic
+      1    0.1%    0.1%  t _Builtins_InterpreterEntryTrampoline
+      1    0.1%    0.1%  t _Builtins_InstanceOf_Baseline
+      1    0.1%    0.1%  t _Builtins_FunctionPrototypeHasInstance
+      1    0.1%    0.1%  t _Builtins_FindOrderedHashSetEntry
+      1    0.1%    0.1%  t _Builtins_FindOrderedHashMapEntry
+      1    0.1%    0.1%  t _Builtins_FastNewStrictArguments
+      1    0.1%    0.1%  t _Builtins_FastNewSloppyArguments
+      1    0.1%    0.1%  t _Builtins_DefineNamedOwnIC
+      1    0.1%    0.1%  t _Builtins_CreateShallowObjectLiteral
+      1    0.1%    0.1%  t _Builtins_CreateFunctionContextHandler
+      1    0.1%    0.1%  t _Builtins_CreateEmptyArrayLiteral
+      1    0.1%    0.1%  t _Builtins_ConstructFunction
+      1    0.1%    0.1%  t _Builtins_Construct
+      1    0.1%    0.1%  t _Builtins_Call_ReceiverIsNullOrUndefined_Baseline_Compact
+      1    0.1%    0.1%  t _Builtins_Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+      1    0.1%    0.1%  t _Builtins_CallWithArrayLike
+      1    0.1%    0.1%  t _Builtins_CallVarargs
+      1    0.1%    0.1%  t _Builtins_CallBoundFunction
+      1    0.1%    0.1%  t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_BuiltinExit
+      1    0.1%    0.1%  t _Builtins_ArrayPrototypePop
+      1    0.1%    0.1%  t _Builtins_ArrayPrototypeJoin
+      1    0.1%    0.1%  t _Builtins_ArrayMap
+      1    0.1%    0.1%  t _Builtins_Add_Baseline
+      1    0.1%    0.1%  T node::ParseEncoding(v8::Isolate*, v8::Local<v8::Value>, node::encoding)
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+    964   52.1%  T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+    899   93.3%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+    336   37.4%      JS: ^internalCompileFunction node:internal/vm:30:33
+    327   97.3%        JS: ^wrapSafe node:internal/modules/cjs/loader:1117:18
+    322   98.5%          JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+    309   96.0%            JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+     13    4.0%            JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      5    1.5%          JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      5  100.0%            JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      9    2.7%        JS: ~wrapSafe node:internal/modules/cjs/loader:1117:18
+      9  100.0%          JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      9  100.0%            JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+     87    9.7%      JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+     74   85.1%        JS: ^nativeModuleRequire node:internal/bootstrap/loaders:356:29
+      8   10.8%          JS: ~<anonymous> node:http:1:1
+      8  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      7    9.5%          JS: ~<anonymous> node:internal/modules/esm/loader:1:1
+      7  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      5    6.8%          JS: ~initializeCJSLoader node:internal/process/pre_execution:563:29
+      5  100.0%            JS: ~setupUserModules node:internal/process/pre_execution:121:26
+      5    6.8%          JS: ~<anonymous> node:tls:1:1
+      5  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      5    6.8%          JS: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      5  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      5    6.8%          JS: ~<anonymous> node:internal/fs/promises:1:1
+      5  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      4    5.4%          JS: ~<anonymous> node:internal/process/esm_loader:1:1
+      4  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      4    5.4%          JS: ~<anonymous> node:internal/child_process:1:1
+      4  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      3    4.1%          JS: ~<anonymous> node:child_process:1:1
+      3  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      3    4.1%          JS: ~<anonymous> node:assert:1:1
+      3  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      3    4.1%          JS: ~<anonymous> node:_http_client:1:1
+      3  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      2    2.7%          JS: ~setupWebCrypto node:internal/process/pre_execution:270:24
+      2  100.0%            JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      2    2.7%          JS: ~<anonymous> node:internal/source_map/source_map_cache:1:1
+      2  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      2    2.7%          JS: ~<anonymous> node:internal/modules/esm/load:1:1
+      2  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      2    2.7%          JS: ~<anonymous> node:_http_common:1:1
+      2  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~setupFetch node:internal/process/pre_execution:221:20
+      1  100.0%            JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1    1.4%          JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%            JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1    1.4%          JS: ~lazyLoadStreams node:fs:2903:25
+      1  100.0%            JS: ~get ReadStream node:fs:3046:17
+      1    1.4%          JS: ~get node:dns:350:8
+      1  100.0%            t _Builtins_ReflectGet
+      1    1.4%          JS: ~get BlockList node:net:1960:16
+      1  100.0%            JS: ~<anonymous> node:internal/modules/esm/fetch_module:1:1
+      1    1.4%          JS: ~<anonymous> node:net:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:internal/readline/interface:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:internal/modules/esm/module_map:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:internal/cluster/primary:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:dns:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:cluster:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:_tls_common:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1    1.4%          JS: ~<anonymous> node:_http_outgoing:1:1
+      1  100.0%            JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+     11   12.6%        JS: ^compileForPublicLoader node:internal/bootstrap/loaders:264:25
+     11  100.0%          JS: ^loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+     11  100.0%            JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      2    2.3%        JS: ~compileForPublicLoader node:internal/bootstrap/loaders:264:25
+      1   50.0%          JS: ~loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+      1  100.0%            JS: ~Module._load node:internal/modules/cjs/loader:851:24
+      1   50.0%          JS: ^loadBuiltinModule node:internal/modules/cjs/helpers:45:27
+      1  100.0%            JS: ^Module._load node:internal/modules/cjs/loader:851:24
+     24    2.7%      JS: ^initialize /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/initialize.js:51:29
+     14   58.3%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     14  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+     10   71.4%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      4   28.6%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:280:64
+      8   33.3%        JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      8  100.0%          JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      8  100.0%            JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      2    8.3%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      2  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+     24    2.7%      JS: ^cpus node:os:141:14
+     23   95.8%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+     23  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     22   95.7%            JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1    4.3%            JS: ~next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1    4.2%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            JS: ~next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     21    2.3%      JS: ^writevGeneric node:internal/stream_base_commons:122:23
+     20   95.2%        JS: ^Socket._writeGeneric node:net:874:42
+     20  100.0%          JS: ^Socket._writev node:net:906:36
+     20  100.0%            JS: ^doWrite node:internal/streams/writable:401:17
+      1    4.8%        JS: ~Socket._writeGeneric node:net:874:42
+      1  100.0%          JS: ~Socket._writev node:net:906:36
+      1  100.0%            JS: ~doWrite node:internal/streams/writable:401:17
+     12    1.3%      JS: ^resOnFinish node:_http_server:903:21
+      7   58.3%        JS: ^emit node:events:460:44
+      7  100.0%          JS: ^onFinish node:_http_outgoing:948:18
+      7  100.0%            JS: ^callback node:internal/streams/writable:553:44
+      5   41.7%        JS: *emit node:events:460:44
+      5  100.0%          JS: ^onFinish node:_http_outgoing:948:18
+      5  100.0%            JS: ^callback node:internal/streams/writable:553:44
+     10    1.1%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      5   50.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      5  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      5  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      5   50.0%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      5  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      5  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      9    1.0%      t _Builtins_StringPrototypeReplace
+      6   66.7%        JS: ^escapeExpression /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      6  100.0%          JS: ^<anonymous> :1:20
+      6  100.0%            JS: ^main /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1   11.1%        JS: ~toIdentifier /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/toidentifier/index.js:24:23
+      1  100.0%          JS: ~forEachCode /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/http-errors/index.js:259:38
+      1  100.0%            t _Builtins_ArrayForEach
+      1   11.1%        JS: ~stringToPath /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/get-intrinsic/index.js:210:41
+      1  100.0%          JS: ~GetIntrinsic /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/get-intrinsic/index.js:253:39
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/call-bind/index.js:1:1
+      1   11.1%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:1155
+      1  100.0%          t _Builtins_ArrayForEach
+      1  100.0%            JS: ~o /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:937
+      9    1.0%      JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      6   66.7%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      6  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      3   50.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:280:64
+      3   50.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      3   33.3%        JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      3  100.0%          JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      3  100.0%            JS: ^urlencodedParser /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/lib/types/urlencoded.js:79:36
+
+    108    5.8%  /usr/lib/system/libsystem_kernel.dylib
+    100   92.6%    JS: *cpus node:os:141:14
+    100  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+     57   57.0%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     57  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     57  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+     43   43.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     43  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     43  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      2    1.9%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1   50.0%      JS: ~cache node:internal/http:24:15
+      1  100.0%        JS: ~utcDate node:internal/http:19:17
+      1  100.0%          JS: ~_storeHeader node:_http_outgoing:420:22
+      1  100.0%            JS: ~writeHead node:_http_server:333:19
+      1   50.0%      JS: ~<anonymous> node:internal/modules/cjs/loader:1:1
+      1  100.0%        JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1  100.0%          JS: ^nativeModuleRequire node:internal/bootstrap/loaders:356:29
+      1  100.0%            JS: ~initializeCJSLoader node:internal/process/pre_execution:563:29
+
+     69    3.7%  UNKNOWN
+     59   85.5%    JS: *cpus node:os:141:14
+     59  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+     31   52.5%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     31  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     31  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+     28   47.5%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     28  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     28  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      7   10.1%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1   14.3%      JS: ~patchProcessObject node:internal/process/pre_execution:135:28
+      1  100.0%        JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%          JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%            JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1   14.3%      JS: ~ns /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/utils.js:293:12
+      1  100.0%        JS: ~MongoClient /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/mongo_client.js:43:16
+      1  100.0%          JS: ~Mongo /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/src/data-access/Mongo/Mongo.js:50:19
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/src/routes/Auth/Auth.js:1:1
+      1   14.3%      JS: ~afterWrite node:internal/streams/writable:490:20
+      1  100.0%        JS: ~afterWriteTick node:internal/streams/writable:485:24
+      1  100.0%          JS: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1   14.3%      JS: ^isTraceHTTPEnabled node:internal/http:40:28
+      1  100.0%        JS: ^_finish node:_http_server:225:52
+      1  100.0%          JS: ^end node:_http_outgoing:953:45
+      1  100.0%            JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1   14.3%      JS: ^hash /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:596:14
+      1  100.0%        JS: ^isModified /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:425:24
+      1  100.0%          JS: ^shouldSetCookie /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:464:29
+      1  100.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:220:28
+      1   14.3%      JS: ^createProtoAccessControl /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/internal/proto-access.js:19:34
+      1  100.0%        JS: ^ret._setup /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      1  100.0%          JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%            JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1   14.3%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/request.js:467:36
+      1  100.0%        t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1  100.0%          JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1    1.4%    t _Builtins_StringSlowFlatten
+      1  100.0%      t _Builtins_StringPrototypeTrim
+      1  100.0%        JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            JS: *fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+
+     54    2.9%  T _host_get_special_port
+     38   70.4%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+     11   28.9%      t _Builtins_ArrayPrototypePush
+     11  100.0%        JS: *cpus node:os:141:14
+     11  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+     11  100.0%            JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     11   28.9%      JS: *logger node:internal/util/debuglog:95:18
+     11  100.0%        JS: ^readableAddChunk /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:249:26
+     11  100.0%          JS: ^Readable.push /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:222:36
+     11  100.0%            JS: ^Transform.push /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_transform.js:137:37
+      9   23.7%      t _Builtins_FastFunctionPrototypeBind
+      9  100.0%        JS: ^parserOnIncoming node:_http_server:961:26
+      9  100.0%          JS: ^parserOnHeadersComplete node:_http_common:72:33
+      6   15.8%      JS: ^randomFillSync node:internal/crypto/random:113:24
+      6  100.0%        JS: ^randomBytes node:internal/crypto/random:93:21
+      6  100.0%          JS: ^randomBytesSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/random-bytes/index.js:72:25
+      6  100.0%            JS: ^uidSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/uid-safe/index.js:75:18
+      1    2.6%      JS: ~_storeHeader node:_http_outgoing:420:22
+      1  100.0%        JS: ~writeHead node:_http_server:333:19
+      1  100.0%          JS: ^writeHead /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/on-headers/index.js:28:29
+      1  100.0%            JS: ^_implicitHeader node:_http_server:328:68
+
+     50    2.7%  t _Builtins_LoadIC
+      3    6.0%    JS: ^get maxAge /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/cookie.js:104:13
+      3  100.0%      JS: ^set expires /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/cookie.js:60:14
+      3  100.0%        JS: ^set maxAge /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/cookie.js:83:13
+      2   66.7%          JS: ^resetMaxAge /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/session.js:58:68
+      2  100.0%            JS: ^touch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/session.js:47:56
+      1   33.3%          JS: ^Cookie /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/cookie.js:25:46
+      1  100.0%            JS: ^store.generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:158:28
+      2    4.0%    JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1   50.0%      JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: ^urlencodedParser /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/lib/types/urlencoded.js:79:36
+      1   50.0%      JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^urlencodedParser /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/lib/types/urlencoded.js:79:36
+      1  100.0%            JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      2    4.0%    JS: ^end node:_http_outgoing:953:45
+      2  100.0%      JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      2  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      2  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      2  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2    4.0%    JS: ^IncomingMessage node:_http_incoming:53:25
+      2  100.0%      JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    2.0%    t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1  100.0%      JS: ^end node:_http_outgoing:953:45
+      1  100.0%        JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%          JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    2.0%    JS: ~resolve node:path:1095:10
+      1  100.0%      JS: ~patchProcessObject node:internal/process/pre_execution:135:28
+      1  100.0%        JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%          JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%            JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    2.0%    JS: ^write_ node:_http_outgoing:831:16
+      1  100.0%      JS: ^end node:_http_outgoing:953:45
+      1  100.0%        JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%          JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1    2.0%    JS: ^tryFile node:internal/modules/cjs/loader:440:17
+      1  100.0%      JS: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1  100.0%        JS: ~Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%          JS: ~Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1  100.0%            JS: ~Module._load node:internal/modules/cjs/loader:851:24
+      1    2.0%    JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%      JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:165:29
+      1  100.0%            JS: ^app /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/express.js:38:21
+      1    2.0%    JS: ^touch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/session/session.js:47:56
+      1  100.0%      JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    2.0%    JS: ^toRealPath node:internal/modules/cjs/loader:449:20
+      1  100.0%      JS: ^tryFile node:internal/modules/cjs/loader:440:17
+      1  100.0%        JS: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1  100.0%          JS: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%            JS: ^Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1    2.0%    JS: ^store.generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:158:28
+      1  100.0%      JS: ^generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%        JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%          JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    2.0%    JS: ^socketOnDrain node:_http_server:705:23
+      1  100.0%      JS: ^updateOutgoingData node:_http_server:700:28
+      1  100.0%        JS: ^_flushOutput node:_http_outgoing:1075:63
+      1  100.0%          JS: ^_writeRaw node:_http_outgoing:371:19
+      1  100.0%            JS: ^_send node:_http_outgoing:336:49
+      1    2.0%    JS: ^ret._setup /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      1  100.0%      JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%        JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%          JS: ^ExpressHandlebars._renderTemplate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    2.0%    JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%      JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%        JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          JS: *fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1  100.0%            t _Builtins_CallApiCallback
+      1    2.0%    JS: ^readSync node:fs:699:18
+      1  100.0%      JS: ^tryReadSync node:fs:435:21
+      1  100.0%        JS: ^readFileSync node:fs:456:22
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    2.0%    JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%      JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    2.0%    JS: ^onParserExecuteCommon node:_http_server:840:31
+      1  100.0%      JS: ^onParserExecute node:_http_server:779:25
+      1    2.0%    JS: ^nextTick node:internal/process/task_queues:103:18
+      1  100.0%      JS: ~emitReadable node:internal/streams/readable:575:22
+      1  100.0%        JS: ~onEofChunk node:internal/streams/readable:545:20
+      1  100.0%          JS: ~readableAddChunk node:internal/streams/readable:242:26
+      1  100.0%            JS: ~Readable.push node:internal/streams/readable:233:35
+      1    2.0%    JS: ^log /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/logger.js:207:6
+      1  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:82:22
+      1  100.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    2.0%    JS: ^internalCompileFunction node:internal/vm:30:33
+      1  100.0%      JS: ^wrapSafe node:internal/modules/cjs/loader:1117:18
+      1  100.0%        JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    2.0%    JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%      JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1  100.0%        JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    2.0%    JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:136:31
+      1  100.0%      JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:165:29
+      1  100.0%        JS: ^app /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/express.js:38:21
+      1  100.0%          JS: ^emit node:events:460:44
+      1  100.0%            JS: ^parserOnIncoming node:_http_server:961:26
+      1    2.0%    JS: ^getOptions node:internal/fs/utils:318:20
+      1  100.0%      JS: ^readFileSync node:fs:456:22
+      1  100.0%        JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%          JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1  100.0%            JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      1    2.0%    JS: ^generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%      JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    2.0%    JS: ^format /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/content-type/index.js:65:17
+      1  100.0%      JS: ^setCharset /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:248:41
+      1  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1  100.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    2.0%    JS: ^escapeExpression /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      1  100.0%      JS: ^<anonymous> :1:20
+      1  100.0%        JS: ^main /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1  100.0%          JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1  100.0%            JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1    2.0%    JS: ^endReadableNT node:internal/streams/readable:1352:23
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%    JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%      JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    2.0%    JS: ^enabled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:438:31
+      1  100.0%      JS: ^render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:548:29
+      1  100.0%        JS: ^render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1016:29
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1  100.0%            JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    2.0%    JS: ^emitCloseNT node:_http_server:950:21
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%    JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            JS: ^fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    2.0%    JS: ^assignSocket node:_http_server:275:62
+      1  100.0%      JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    2.0%    JS: ^app.<computed> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:490:25
+      1  100.0%      JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: ^step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    2.0%    JS: ^afterWriteTick node:internal/streams/writable:485:24
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%    JS: ^afterWrite node:internal/streams/writable:490:20
+      1  100.0%      JS: ^afterWriteTick node:internal/streams/writable:485:24
+      1  100.0%        JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%    JS: ^afterWrite /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:466:20
+      1  100.0%      JS: ^onwrite /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:444:17
+      1  100.0%        JS: *Writable.write /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:288:37
+      1  100.0%          JS: ^ondata /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:679:18
+      1  100.0%            JS: *emit node:events:460:44
+      1    2.0%    JS: ^addListener node:events:604:58
+      1  100.0%      JS: ^Readable.on node:internal/streams/readable:886:33
+      1  100.0%        JS: ^socketListenerWrap node:_http_server:1110:37
+      1  100.0%          JS: ^assignSocket node:_http_server:275:62
+      1  100.0%            JS: ^parserOnIncoming node:_http_server:961:26
+      1    2.0%    JS: ^_unrefTimer node:net:462:52
+      1  100.0%      JS: ^onParserExecute node:_http_server:779:25
+      1    2.0%    JS: ^Socket._writev node:net:906:36
+      1  100.0%      JS: ^doWrite node:internal/streams/writable:401:17
+      1  100.0%        JS: ^clearBuffer node:internal/streams/writable:532:21
+      1  100.0%          JS: ^Writable.uncork node:internal/streams/writable:344:37
+      1  100.0%            JS: ^end node:_http_outgoing:953:45
+      1    2.0%    JS: ^Socket._writeGeneric node:net:874:42
+      1  100.0%      JS: ^Socket._writev node:net:906:36
+      1  100.0%        JS: ^doWrite node:internal/streams/writable:401:17
+      1  100.0%          JS: ^clearBuffer node:internal/streams/writable:532:21
+      1  100.0%            JS: ^Writable.uncork node:internal/streams/writable:344:37
+      1    2.0%    JS: ^ServerResponse node:_http_server:188:24
+      1  100.0%      JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    2.0%    JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    2.0%    JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%      JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%            t _Builtins_PromiseConstructor
+
+     48    2.6%  /usr/lib/system/libsystem_pthread.dylib
+     43   89.6%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      3    7.0%      JS: ~realpathSync node:fs:2470:22
+      3  100.0%        JS: ~toRealPath node:internal/modules/cjs/loader:449:20
+      3  100.0%          JS: ~Module._findPath node:internal/modules/cjs/loader:555:28
+      3  100.0%            JS: ~resolveMainPath node:internal/modules/run_main:15:25
+      3    7.0%      JS: ~patchProcessObject node:internal/process/pre_execution:135:28
+      3  100.0%        JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      3  100.0%          JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      3  100.0%            JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      3    7.0%      JS: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      3  100.0%        JS: ~getStderr node:internal/bootstrap/switches/is_main_thread:168:19
+      3  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/debug/src/node.js:1:1
+      3  100.0%            JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      2    4.7%      JS: ~validate_config /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:195:25
+      2  100.0%        JS: ~exports.find /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      2  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/bcrypt/bcrypt.js:1:1
+      2  100.0%            JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      2    4.7%      JS: ~toRealPath node:internal/modules/cjs/loader:449:20
+      2  100.0%        JS: ~Module._findPath node:internal/modules/cjs/loader:555:28
+      2  100.0%          JS: ~resolveMainPath node:internal/modules/run_main:15:25
+      2  100.0%            JS: ~executeUserEntryPoint node:internal/modules/run_main:75:31
+      1    2.3%      t _Builtins_RegExpPrototypeTest
+      1  100.0%        JS: ~supportsColor /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@colors/colors/lib/system/supports-colors.js:58:23
+      1  100.0%          JS: ~getSupportLevel /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@colors/colors/lib/system/supports-colors.js:142:25
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@colors/colors/lib/system/supports-colors.js:1:1
+      1    2.3%      t _Builtins_ReflectGet
+      1  100.0%        JS: ^getOwn node:internal/bootstrap/loaders:188:16
+      1  100.0%          JS: ^syncExports node:internal/bootstrap/loaders:307:14
+      1  100.0%            JS: ~<anonymous> node:internal/bootstrap/loaders:293:15
+      1    2.3%      t _Builtins_ArrayMap
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/minimatch/minimatch.js:222:19
+      1  100.0%          t _Builtins_ArrayMap
+      1  100.0%            JS: ~make /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/minimatch/minimatch.js:188:8
+      1    2.3%      t _Builtins_ArrayForEach
+      1  100.0%        JS: ~parseOpts /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/node-pre-gyp.js:144:37
+      1  100.0%          JS: ~Run /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/node-pre-gyp.js:78:13
+      1  100.0%            JS: ~exports.find /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1    2.3%      JS: ~step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:23:22
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%          t _Builtins_PromiseConstructor
+      1  100.0%            JS: ~__awaiter /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1    2.3%      JS: ~setInterval node:timers:210:21
+      1  100.0%        JS: ~setupConnectionsTracking node:_http_server:473:34
+      1  100.0%          JS: ~Server node:_http_server:483:16
+      1  100.0%            JS: ~createServer node:http:59:22
+      1    2.3%      JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%        JS: ~handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ~trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:280:64
+      1    2.3%      JS: ~relative node:path:1194:11
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:56802
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:46480
+      1  100.0%            t _Builtins_ArrayMap
+      1    2.3%      JS: ~randomBytesSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/random-bytes/index.js:72:25
+      1  100.0%        JS: ~uidSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/uid-safe/index.js:75:18
+      1  100.0%          JS: ~generateSessionId /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:518:27
+      1  100.0%            JS: ~store.generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:158:28
+      1    2.3%      JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%        JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%          JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    2.3%      JS: ~parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs-parser/build/index.cjs:108:10
+      1  100.0%        JS: ~yargsParser.detailed /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs-parser/build/index.cjs:1043:33
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:56853
+      1  100.0%            JS: ~parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:39721
+      1    2.3%      JS: ~parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%        JS: ~parseWithoutProcessing /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%          JS: ~parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1  100.0%            JS: ~compileInput /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    2.3%      JS: ~nextTick node:internal/process/task_queues:103:18
+      1  100.0%        JS: ~resume /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:902:16
+      1  100.0%          JS: ~Readable.resume /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:886:38
+      1  100.0%            JS: ~Readable.on /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:804:34
+      1    2.3%      JS: ~logger node:internal/util/debuglog:95:18
+      1  100.0%        JS: ~Module._resolveLookupPaths node:internal/modules/cjs/loader:753:38
+      1  100.0%          JS: ~Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1  100.0%            JS: ~Module._load node:internal/modules/cjs/loader:851:24
+      1    2.3%      JS: ~f /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/once/once.js:22:20
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/glob/glob.js:147:29
+      1  100.0%          JS: ~Glob._finish /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/glob/glob.js:185:35
+      1  100.0%            JS: ~done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/glob/glob.js:171:17
+      1    2.3%      JS: ~exports.compileTrust /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:217:32
+      1  100.0%        JS: ~set /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:359:23
+      1  100.0%          JS: ~defaultConfiguration /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:77:57
+      1  100.0%            JS: ~init /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:64:25
+      1    2.3%      JS: ~createHash node:crypto:139:20
+      1  100.0%        JS: ~hash /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:596:14
+      1  100.0%          JS: ~generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%            JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1    2.3%      JS: ~createFunctionContext /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%        JS: ~compile /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%          JS: ~compileInput /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%            JS: ~ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1    2.3%      JS: ~assertEncoding node:internal/fs/utils:155:24
+      1  100.0%        JS: ~getOptions node:internal/fs/utils:318:20
+      1  100.0%          JS: ~readFileSync node:fs:456:22
+      1  100.0%            JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    2.3%      JS: ~_write node:internal/streams/writable:286:16
+      1  100.0%        JS: ~Writable.write node:internal/streams/writable:336:36
+      1  100.0%          JS: ~value node:internal/console/constructor:272:20
+      1  100.0%            JS: ~warn node:internal/console/constructor:381:7
+      1    2.3%      JS: ~Duplex node:internal/streams/duplex:54:16
+      1  100.0%        JS: ~Socket node:net:314:16
+      1  100.0%          JS: ~WriteStream node:tty:84:21
+      1  100.0%            JS: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1    2.3%      JS: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%        JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1  100.0%          JS: ^nativeModuleRequire node:internal/bootstrap/loaders:356:29
+      1  100.0%            JS: ~<anonymous> node:internal/modules/esm/load:1:1
+      1    2.3%      JS: ~<anonymous> node:fs:197:10
+      1    2.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/encoding.js:1:1
+      1  100.0%        JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    2.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/saslprep/lib/memory-code-points.js:1:1
+      1  100.0%        JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    2.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/debug/src/node.js:1:1
+      1  100.0%        JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ~Module.load node:internal/modules/cjs/loader:1069:33
+      1    2.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/aproba/index.js:52:39
+      1  100.0%        t _Builtins_ArrayFilter
+      1  100.0%          JS: ~validate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/aproba/index.js:25:19
+      1  100.0%            JS: ~module.exports /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/gauge/plumbing.js:6:42
+      1    2.3%      JS: ^_send node:_http_outgoing:336:49
+      1  100.0%        JS: ^write_ node:_http_outgoing:831:16
+      1  100.0%          JS: ^end node:_http_outgoing:953:45
+      1  100.0%            JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1    2.3%      JS: *resolve node:path:1095:10
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+      1  100.0%          JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    2.3%      JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            JS: ^fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+
+     40    2.2%  T _host_request_notification
+     26   65.0%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1    3.8%      t _Builtins_RegExpPrototypeTest
+      1  100.0%        JS: ~parse node:url:175:37
+      1  100.0%          JS: ~urlParse node:url:143:18
+      1  100.0%            JS: ~validate_config /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/util/versioning.js:195:25
+      1    3.8%      t _Builtins_ReflectGet
+      1  100.0%        JS: ~getOwn node:internal/bootstrap/loaders:188:16
+      1  100.0%          JS: ~syncExports node:internal/bootstrap/loaders:307:14
+      1  100.0%            JS: ~<anonymous> node:internal/bootstrap/loaders:293:15
+      1    3.8%      JS: ~value node:internal/console/constructor:346:20
+      1  100.0%        JS: ~warn node:internal/console/constructor:381:7
+      1  100.0%          T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1  100.0%            JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:87:17
+      1    3.8%      JS: ~utf8PercentEncodeCodePointInternal /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/percent-encoding.js:97:44
+      1  100.0%        JS: ~utf8PercentEncodeString /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/percent-encoding.js:118:33
+      1  100.0%          JS: ~parseOpaqueHost /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/url-state-machine.js:379:25
+      1  100.0%            JS: ~parseHost /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/url-state-machine.js:328:19
+      1    3.8%      JS: ~tryReadSync node:fs:435:21
+      1  100.0%        JS: ~readFileSync node:fs:456:22
+      1  100.0%          JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ~Module.load node:internal/modules/cjs/loader:1069:33
+      1    3.8%      JS: ~step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%            t _Builtins_PromiseConstructor
+      1    3.8%      JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:87:17
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:1:1
+      1  100.0%          JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%            JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    3.8%      JS: ~realpathSync node:fs:2470:22
+      1  100.0%        JS: ~toRealPath node:internal/modules/cjs/loader:449:20
+      1  100.0%          JS: ~Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%            JS: ~resolveMainPath node:internal/modules/run_main:15:25
+      1    3.8%      JS: ~readStart node:_http_incoming:42:19
+      1  100.0%        JS: ~parserOnMessageComplete node:_http_common:135:33
+      1    3.8%      JS: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.8%      JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%        JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%          JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    3.8%      JS: ~patch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/polyfills.js:29:16
+      1  100.0%        JS: ~patch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/graceful-fs.js:102:16
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/graceful-fs.js:1:1
+      1  100.0%            JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1    3.8%      JS: ~parserOnIncoming node:_http_server:961:26
+      1  100.0%        JS: ~parserOnHeadersComplete node:_http_common:72:33
+      1    3.8%      JS: ~isObject /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/utils.js:77:18
+      1  100.0%        JS: ~isRecord /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/utils.js:621:18
+      1  100.0%          JS: ~transform /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/connection_string.js:583:18
+      1  100.0%            JS: ~setOption /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/connection_string.js:407:19
+      1    3.8%      JS: ~Writable.end node:internal/streams/writable:597:34
+      1  100.0%        JS: ~Socket.end node:net:674:32
+      1  100.0%          JS: ~socketOnEnd node:_http_server:748:21
+      1  100.0%            JS: ^emit node:events:460:44
+      1    3.8%      JS: ~TransportStream /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston-transport/index.js:18:66
+      1  100.0%        JS: ~File /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/transports/file.js:33:14
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:1:1
+      1  100.0%            JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      1    3.8%      JS: ~SubExpression /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      1  100.0%        JS: ~MustacheStatement /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:215:48
+      1  100.0%          JS: ~accept /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1  100.0%            JS: ~Program /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      1    3.8%      JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%        JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1  100.0%          JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      1  100.0%            JS: ^Module.require node:internal/modules/cjs/loader:1097:36
+      1    3.8%      JS: ~<anonymous> node:_http_outgoing:612:44
+      1  100.0%        JS: ~setHeader node:_http_outgoing:642:57
+      1  100.0%          JS: ~header /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:777:29
+      1  100.0%            JS: ~send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/create-logger.js:53:45
+      1  100.0%        t _Builtins_ArrayForEach
+      1  100.0%          JS: ~module.exports /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/create-logger.js:25:27
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:1:1
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/logform/json.js:1:1
+      1  100.0%        JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%        JS: ^step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            JS: ^fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/bson/lib/timestamp.js:27:41
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/bson/lib/timestamp.js:1:1
+      1  100.0%          JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%            JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/index.js:1:1
+      1  100.0%        JS: ~Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ~Module.load node:internal/modules/cjs/loader:1069:33
+      1    3.8%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/are-we-there-yet/lib/tracker-stream.js:1:1
+      1  100.0%        JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%          JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%            JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1    3.8%      JS: *update node:internal/crypto/hash:99:40
+      1  100.0%        JS: ^entitytag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:39:20
+      1  100.0%          JS: ^etag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:70:15
+      1  100.0%            JS: ^generateETag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:273:32
+
+     38    2.1%  /usr/lib/system/libsystem_malloc.dylib
+     16   42.1%    JS: *cpus node:os:141:14
+     16  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+     11   68.8%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+     11  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+     11  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      5   31.3%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      5  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      5  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+     12   31.6%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1    8.3%      t _Builtins_TypedArrayConstructor
+      1  100.0%        JS: ^FastBuffer node:internal/buffer:958:14
+      1  100.0%          JS: ^createUnsafeBuffer node:internal/buffer:1059:28
+      1  100.0%            JS: ^createPool node:buffer:159:20
+      1    8.3%      t _Builtins_StringPrototypeMatch
+      1  100.0%        JS: ~next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      1  100.0%          JS: ~lex /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%            JS: ~lex /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1    8.3%      JS: ~refresh node:internal/util/colors:10:10
+      1  100.0%        JS: ~<anonymous> node:internal/util/colors:1:1
+      1  100.0%          JS: ^compileForInternalLoader node:internal/bootstrap/loaders:319:27
+      1  100.0%            JS: ^nativeModuleRequire node:internal/bootstrap/loaders:356:29
+      1    8.3%      JS: ~compile /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%        JS: ~compileInput /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%          JS: ~ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            JS: ~ExpressHandlebars._renderTemplate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    8.3%      JS: ~View /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/view.js:52:14
+      1  100.0%        JS: ~render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:548:29
+      1  100.0%          JS: ~render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1016:29
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1    8.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:59292
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:49158
+      1  100.0%          JS: ~j /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:4864
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:49140
+      1    8.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:48168
+      1  100.0%        JS: ~describe /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:34410
+      1  100.0%          JS: ~addHelpOpt /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:29439
+      1  100.0%            JS: ~help /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:29743
+      1    8.3%      JS: ^store.generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:158:28
+      1  100.0%        JS: ^generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%          JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%            JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    8.3%      JS: ^step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%          JS: ^fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1  100.0%            T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1    8.3%      JS: ^randomBytes node:internal/crypto/random:93:21
+      1  100.0%        JS: ^randomBytesSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/random-bytes/index.js:72:25
+      1  100.0%          JS: ^uidSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/uid-safe/index.js:75:18
+      1  100.0%            JS: ^generateSessionId /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:518:27
+      1    8.3%      JS: ^parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/content-type/index.js:106:16
+      1  100.0%        JS: ^setCharset /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:248:41
+      1  100.0%          JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1    8.3%      JS: ^flow node:internal/streams/readable:1020:14
+      1  100.0%        JS: ^emitReadable_ node:internal/streams/readable:586:23
+      1  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      3    7.9%    t _Builtins_KeyedLoadIC
+      3  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:331:47
+      3  100.0%        JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2   66.7%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      2  100.0%            t _Builtins_PromiseConstructor
+      1   33.3%          JS: *__awaiter /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1  100.0%            JS: ^ExpressHandlebars._getDir /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:327:52
+      1    2.6%    t _Builtins_FindOrderedHashSetEntry
+      1  100.0%      JS: *realpathSync node:fs:2470:22
+      1  100.0%        JS: ^toRealPath node:internal/modules/cjs/loader:449:20
+      1  100.0%          JS: ^tryFile node:internal/modules/cjs/loader:440:17
+      1  100.0%            JS: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1    2.6%    JS: *digest node:internal/crypto/hash:119:40
+      1  100.0%      JS: ^hash /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:596:14
+      1  100.0%        JS: ^isModified /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:425:24
+      1  100.0%          JS: ^shouldSave /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:440:24
+      1  100.0%            JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+
+     27    1.5%  t _Builtins_CallFunction_ReceiverIsNullOrUndefined
+      2    7.4%    JS: ^stringify /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/safe-stable-stringify/index.js:649:22
+      2  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/logform/json.js:26:25
+      2  100.0%        JS: ^_transform /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/logger.js:275:13
+      2  100.0%          JS: ^Transform._read /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_transform.js:171:38
+      2  100.0%            JS: ^Transform._write /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_transform.js:156:39
+      2    7.4%    JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%      JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1   50.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:280:64
+      1  100.0%          JS: ^process_params /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:338:47
+      1  100.0%            JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1   50.0%        JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^urlencodedParser /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/lib/types/urlencoded.js:79:36
+      1  100.0%            JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      2    7.4%    JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.7%    JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%      JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        JS: ^initialize /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/initialize.js:51:29
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1    3.7%    JS: ^toRealPath node:internal/modules/cjs/loader:449:20
+      1  100.0%      JS: ^tryFile node:internal/modules/cjs/loader:440:17
+      1  100.0%        JS: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1  100.0%          JS: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%            JS: ^Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1    3.7%    JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%      JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:280:64
+      1  100.0%            JS: ^process_params /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:338:47
+      1    3.7%    JS: ^resetSocketTimeout node:_http_server:1066:28
+      1  100.0%      JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.7%    JS: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.7%    JS: ^parserOnMessageComplete node:_http_common:135:33
+      1    3.7%    JS: ^openSync node:fs:582:18
+      1  100.0%      JS: ^readFileSync node:fs:456:22
+      1  100.0%        JS: ~Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1  100.0%          JS: ^Module.load node:internal/modules/cjs/loader:1069:33
+      1  100.0%            JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      1    3.7%    JS: ^log /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/logger.js:207:6
+      1  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:82:22
+      1  100.0%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    3.7%    JS: ^getPathname /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:537:21
+      1  100.0%      JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:165:29
+      1  100.0%            JS: ^app /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/express.js:38:21
+      1    3.7%    JS: ^get node:_http_incoming:112:16
+      1  100.0%      JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.7%    JS: ^generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%      JS: ^session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1    3.7%    JS: ^end node:_http_outgoing:953:45
+      1  100.0%      JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    3.7%    JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%      JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%          JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    3.7%    JS: ^contentType /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:619:32
+      1  100.0%      JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: ^done /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1033:27
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    3.7%    JS: ^app /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/express.js:38:21
+      1  100.0%      JS: *emit node:events:460:44
+      1  100.0%        JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%          JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.7%    JS: ^afterWriteTick node:internal/streams/writable:485:24
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    3.7%    JS: ^Writable.uncork node:internal/streams/writable:344:37
+      1  100.0%      JS: ^end node:_http_outgoing:953:45
+      1  100.0%        JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%          JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1    3.7%    JS: ^Socket._writev node:net:906:36
+      1  100.0%      JS: ^doWrite node:internal/streams/writable:401:17
+      1  100.0%        JS: ^clearBuffer node:internal/streams/writable:532:21
+      1  100.0%          JS: ^Writable.uncork node:internal/streams/writable:344:37
+      1  100.0%            JS: ^end node:_http_outgoing:953:45
+      1    3.7%    JS: ^Readable node:internal/streams/readable:186:18
+      1  100.0%      JS: ^IncomingMessage node:_http_incoming:53:25
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1    3.7%    JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/logform/json.js:26:25
+      1  100.0%      JS: ^_transform /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/logger.js:275:13
+      1  100.0%        JS: ^Transform._read /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_transform.js:171:38
+      1  100.0%          JS: ^Transform._write /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_transform.js:156:39
+      1  100.0%            JS: ^doWrite /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:404:17
+
+     23    1.2%  /usr/lib/system/libsystem_platform.dylib
+      9   39.1%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      2   22.2%      JS: ^isTraceHTTPEnabled node:internal/http:40:28
+      1   50.0%        JS: ^_finish node:_http_server:225:52
+      1  100.0%          JS: ^end node:_http_outgoing:953:45
+      1  100.0%            JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1   50.0%        JS: ^ServerResponse node:_http_server:188:24
+      1  100.0%          JS: ^parserOnIncoming node:_http_server:961:26
+      1  100.0%            JS: ^parserOnHeadersComplete node:_http_common:72:33
+      1   11.1%      t _Builtins_ReflectGet
+      1  100.0%        JS: ^getOwn node:internal/bootstrap/loaders:188:16
+      1  100.0%          JS: ^syncExports node:internal/bootstrap/loaders:307:14
+      1  100.0%            JS: ^<anonymous> node:internal/bootstrap/loaders:293:15
+      1   11.1%      JS: ~toRealPath node:internal/modules/cjs/loader:449:20
+      1  100.0%        JS: ~Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%          JS: ~resolveMainPath node:internal/modules/run_main:15:25
+      1  100.0%            JS: ~executeUserEntryPoint node:internal/modules/run_main:75:31
+      1   11.1%      JS: ~exports.find /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/@mapbox/node-pre-gyp/lib/pre-binding.js:17:24
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/bcrypt/bcrypt.js:1:1
+      1  100.0%          JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%            JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1   11.1%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:1958
+      1  100.0%        t _Builtins_ArrayFilter
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:1915
+      1  100.0%            t _Builtins_ArrayForEach
+      1   11.1%      JS: ^readPackage node:internal/modules/cjs/loader:335:21
+      1  100.0%        JS: ^resolveExports node:internal/modules/cjs/loader:528:24
+      1  100.0%          JS: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%            JS: ^Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1   11.1%      JS: *resolve node:path:1095:10
+      1  100.0%        JS: *readPackageScope node:internal/modules/cjs/loader:377:26
+      1  100.0%          JS: ^trySelf node:internal/modules/cjs/loader:497:17
+      1  100.0%            JS: ^Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      1   11.1%      JS: *normalizeString node:path:66:25
+      1  100.0%        JS: ^resolve node:path:1095:10
+      1  100.0%          JS: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      1  100.0%            JS: ^Module._resolveFilename node:internal/modules/cjs/loader:948:35
+      2    8.7%    t _Builtins_StringSlowFlatten
+      2  100.0%      t _Builtins_StringPrototypeTrim
+      1   50.0%        JS: ^ExpressHandlebars._renderTemplate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1   50.0%        JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            JS: *fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      2    8.7%    t _Builtins_KeyedLoadIC_Megamorphic
+      1   50.0%      JS: ^getHeader node:_http_outgoing:688:57
+      1  100.0%        JS: ^res.get /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:811:19
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/request.js:467:36
+      1  100.0%            t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit
+      1   50.0%      JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      1  100.0%        JS: ^Module.require node:internal/modules/cjs/loader:1097:36
+      1  100.0%          JS: ^require node:internal/modules/cjs/helpers:102:31
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/async/series.js:1:1
+      2    8.7%    JS: *cpus node:os:141:14
+      2  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1   50.0%        JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      1   50.0%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      1    4.3%    t _Builtins_FindOrderedHashMapEntry
+      1  100.0%      JS: *stat node:internal/modules/cjs/loader:161:14
+      1  100.0%        JS: ^tryFile node:internal/modules/cjs/loader:440:17
+      1  100.0%          JS: ^tryExtensions node:internal/modules/cjs/loader:456:23
+      1  100.0%            JS: ^Module._findPath node:internal/modules/cjs/loader:555:28
+      1    4.3%    JS: *digest node:internal/crypto/hash:119:40
+      1  100.0%      JS: ^entitytag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:39:20
+      1  100.0%        JS: ^etag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:70:15
+      1  100.0%          JS: ^generateETag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:273:32
+      1  100.0%            JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+
+     20    1.1%  t _Builtins_BaselineOutOfLinePrologue
+      1    5.0%    t _Builtins_StringPrototypeReplace
+      1  100.0%      JS: ^escapeExpression /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/utils.js:77:26
+      1  100.0%        JS: ~<anonymous> :1:20
+      1  100.0%          JS: ^main /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:207:18
+      1  100.0%            JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1    5.0%    t _Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_BuiltinExit
+      1  100.0%      JS: *hash /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:596:14
+      1  100.0%        JS: ^isModified /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:425:24
+      1  100.0%          JS: ^shouldSave /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:440:24
+      1  100.0%            JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1    5.0%    JS: ^tryRender /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:655:19
+      1  100.0%      JS: ^render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/application.js:548:29
+      1  100.0%        JS: ^render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1016:29
+      1  100.0%          JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1  100.0%            JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    5.0%    JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%      JS: ^ExpressHandlebars._renderTemplate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    5.0%    JS: ^resume_ node:internal/streams/readable:996:17
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    5.0%    JS: ^render /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:1016:29
+      1  100.0%      JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:88:32
+      1  100.0%        JS: *handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:116:16
+      1  100.0%            JS: ^dispatch /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/route.js:98:45
+      1    5.0%    JS: ^maybeReadMore_ /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_readable.js:565:24
+      1  100.0%      JS: *processTicksAndRejections node:internal/process/task_queues:67:35
+      1    5.0%    JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%      JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^strategy.pass /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/authenticate.js:345:31
+      1  100.0%            JS: ^SessionStrategy.authenticate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/strategies/session.js:45:50
+      1    5.0%    JS: ^getPathname /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:537:21
+      1  100.0%      JS: ^next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:82:22
+      1  100.0%          JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%            JS: ^trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1    5.0%    JS: ^etag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:70:15
+      1  100.0%      JS: ^generateETag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:273:32
+      1  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    5.0%    JS: ^end node:_http_outgoing:953:45
+      1  100.0%      JS: ^end /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:250:27
+      1  100.0%        JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%            JS: *step /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    5.0%    JS: ^createHash node:crypto:139:20
+      1  100.0%      JS: ^entitytag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:39:20
+      1  100.0%        JS: ^etag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/etag/index.js:70:15
+      1  100.0%          JS: ^generateETag /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:273:32
+      1  100.0%            JS: ^send /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/response.js:111:25
+      1    5.0%    JS: ^authenticate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/authenticate.js:94:31
+      1  100.0%      JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^initialize /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/passport/lib/middleware/initialize.js:51:29
+      1  100.0%            JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1    5.0%    JS: ^Timeout node:internal/timers:164:14
+      1  100.0%      JS: ^setUnrefTimeout node:internal/timers:377:25
+      1  100.0%        JS: ^setStreamTimeout node:internal/stream_base_commons:237:26
+      1  100.0%          JS: ^resOnFinish node:_http_server:903:21
+      1  100.0%            JS: ^emit node:events:460:44
+      1    5.0%    JS: ^Module.require node:internal/modules/cjs/loader:1097:36
+      1  100.0%      JS: ^require node:internal/modules/cjs/helpers:102:31
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/mongodb/lib/collection.js:1:1
+      1  100.0%          JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%            JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    5.0%    JS: ^Module._load node:internal/modules/cjs/loader:851:24
+      1  100.0%      JS: ^Module.require node:internal/modules/cjs/loader:1097:36
+      1  100.0%        JS: ^require node:internal/modules/cjs/helpers:102:31
+      1  100.0%          JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/semver/index.js:1:1
+      1  100.0%            JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1    5.0%    JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      1  100.0%      t _Builtins_ArrayForEach
+      1  100.0%        JS: ^wrapHelpersToPassLookupProperty /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:359:41
+      1  100.0%          JS: ^ret._setup /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:217:25
+      1  100.0%            JS: ^ret /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      1    5.0%    JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%      JS: ^fulfilled /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1  100.0%        T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1  100.0%          JS: ^processTicksAndRejections node:internal/process/task_queues:67:35
+      1    5.0%    JS: *Writable.write /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/readable-stream/lib/_stream_writable.js:288:37
+      1  100.0%      JS: ^log /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/winston/lib/winston/logger.js:207:6
+      1  100.0%        JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:82:22
+      1  100.0%          JS: *trim_prefix /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/index.js:177:16
+
+     19    1.0%  /usr/lib/system/libsystem_c.dylib
+     16   84.2%    T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      2   12.5%      JS: ~value node:internal/console/constructor:346:20
+      2  100.0%        JS: ~warn node:internal/console/constructor:381:7
+      2  100.0%          T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      2  100.0%            JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:87:17
+      1    6.3%      t _Builtins_ArrayPrototypePush
+      1  100.0%        JS: ^stringifyFnReplacer /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/safe-stable-stringify/index.js:230:32
+      1  100.0%          JS: ^stringify /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/safe-stable-stringify/index.js:649:22
+      1  100.0%            JS: ^<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/logform/json.js:26:25
+      1    6.3%      T node::HistogramBase::HistogramBase(node::Environment*, v8::Local<v8::Object>, std::__1::shared_ptr<node::Histogram>)
+      1  100.0%        JS: ~getStack /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/depd/index.js:381:19
+      1  100.0%          JS: ~depd /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/depd/index.js:103:15
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/body-parser/index.js:1:1
+      1    6.3%      JS: ~store.generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:158:28
+      1  100.0%        JS: ~generate /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:363:22
+      1  100.0%          JS: ~session /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express-session/index.js:179:26
+      1  100.0%            JS: ~handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    6.3%      JS: ~retry /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/graceful-fs.js:397:16
+      1  100.0%        JS: ~resetQueue /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/graceful-fs.js:383:21
+      1  100.0%          JS: ~closeSync /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/graceful-fs/graceful-fs.js:72:24
+      1  100.0%            JS: ^readFileSync node:fs:456:22
+      1    6.3%      JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%        JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%          JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      JS: ~patchProcessObject node:internal/process/pre_execution:135:28
+      1  100.0%        JS: ~prepareExecution node:internal/process/pre_execution:52:26
+      1  100.0%          JS: ~prepareMainThreadExecution node:internal/process/pre_execution:36:36
+      1  100.0%            JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    6.3%      JS: ~module.exports /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/qs/lib/parse.js:239:27
+      1  100.0%        JS: ~parseExtendedQueryString /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:289:34
+      1  100.0%          JS: ~query /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%            JS: ~handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+      1    6.3%      JS: ~log.addLevel /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/npmlog/log.js:364:25
+      1  100.0%        JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/npmlog/log.js:1:1
+      1  100.0%          JS: ^Module._compile node:internal/modules/cjs/loader:1173:37
+      1  100.0%            JS: ^Module._extensions..js node:internal/modules/cjs/loader:1227:37
+      1    6.3%      JS: ~exports.setup /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/URLSearchParams.js:62:17
+      1  100.0%        JS: ~exports.create /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/URLSearchParams.js:50:18
+      1  100.0%          JS: ~exports.createImpl /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1  100.0%            JS: ~URLImpl /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1    6.3%      JS: ~detachSocket node:_http_server:284:62
+      1  100.0%        JS: ~resOnFinish node:_http_server:903:21
+      1  100.0%          JS: ^emit node:events:460:44
+      1  100.0%            JS: ~onFinish node:_http_outgoing:948:18
+      1    6.3%      JS: ~_construct node:internal/fs/streams:45:20
+      1  100.0%        JS: ~constructNT node:internal/streams/destroy:244:21
+      1  100.0%          JS: ~processTicksAndRejections node:internal/process/task_queues:67:35
+      1    6.3%      JS: ~Readable node:internal/streams/readable:186:18
+      1  100.0%        JS: ~Duplex node:internal/streams/duplex:54:16
+      1  100.0%          JS: ~Socket node:net:314:16
+      1  100.0%            JS: ~WriteStream node:tty:84:21
+      1    6.3%      JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:48230
+      1  100.0%        JS: ~parse /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:39721
+      1  100.0%          JS: ~get /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/yargs/build/index.cjs:1:61383
+      1  100.0%            JS: ~<anonymous> /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/app.js:1:1
+      1    6.3%      JS: ^module.exports /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/qs/lib/parse.js:239:27
+      1  100.0%        JS: ^parseExtendedQueryString /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/utils.js:289:34
+      1  100.0%          JS: ^query /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%            JS: ^handle /Users/kuro/Documentos/coderhouse_curso/coderhouse_backend/coderhouse-backend/desafios/14/node_modules/express/lib/router/layer.js:86:49
+
